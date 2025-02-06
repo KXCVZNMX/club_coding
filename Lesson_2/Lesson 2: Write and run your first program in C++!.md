@@ -44,8 +44,10 @@ std::string message = "Hello, World!";
 ```
 to break this line down, there are three parts. The data type `std::string`, `message`, `=`, and `"Hello, World!"`.
 
+### `std::string`
 `std::string` is a data type found in the `std` namespace, the `<string>` library. The `::` here is telling the compiler that the identifier `string` is a function under the namespace `std`, then the compiler will try to find such data type.
 
+### `message`
 `message` is the identifier here is for the programmer to easily reuse the said variable. The name of a variable does not effect anything about it, although, you cannot have two variables holding the same name, otherwise the compiler would complain of the redeclaration.
 
 Example
@@ -71,8 +73,10 @@ int main() {
       |  
 ```
 
+### `=`
 The `=` operator in c++ is an assignment operator, it does not perform a comparison, that would be the `==` operator. For example, here, `"Hello, World!"` was assigned to the `message` variable. 
 
+### `"Hello, World!"`
 `"Hello, World!"` is of type `string` because of the `""` double quotation marks. This string in C++ would be stored as a pointer to an array of characters. We will not dive too deep to that right now, but it is good to know.
 
 ## Printing out the varaible
