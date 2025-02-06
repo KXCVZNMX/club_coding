@@ -87,6 +87,17 @@ The use of the intersting `<<` (left shift) operator is intriguing, but we will 
 
 You simply have to know that this would print out the variable or whatever you put behind the `<<` operator (unless you wrote an error).
 
+Your final program should looks similar to this:
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::string message = "Hello, World!";
+    std::cout << message;
+}
+```
+
 Now your program is finished!
 
 ## Running your program
