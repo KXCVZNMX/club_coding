@@ -59,14 +59,26 @@ brew install g++
 ```
 This would download the newest version of GCC thats present on HomeBrew.
 
-### Install an IDE
+## Windows Setup
+Windows does not come with a default c++ compiler, hence we will be installing one. Here, we will use MinGW-w64.
+
+### Installing MinGW-w64
+MinGW is a minimalistic GNU compiler for windows. To install, head to [this page](https://sourceforge.net/projects/mingw/), and follow the installation wizard after the download finishes.
+
+After the wizard finishes, add `C:\mingw-w64\mingw64\bin` to your system's environment variable PATH. Afterwards, you can check the installation by typing:
+```zsh 
+g++ --version
+```
+
+
+## Install an IDE
 IDE (***I***ntergrated ***D***evelopment ***E***nvironment), put it simply, is an application to develop code. In this lesson, we will be using VSCode, one of the most used IDE due to its simplicity to use and how it allows tons of modding to fit your liking.
 
 To install VSCode, simply go to their [main page](https://code.visualstudio.com/)
 
 ***DO NOT DOWNLOAD VISUAL STUDIO!!!*** lol
 
-### IDE Setup
+## IDE Setup
 After VSCode finishes downloading, you can checkout the "Get Started" page for some guidance in the IDE. After you are satisfied, go to the "Extensions" tab, after opening it, it should look soemthing like this:
 
 <img src="extension_tab.png" width=165 length=657>
