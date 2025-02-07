@@ -58,6 +58,26 @@ There are 3 major data types used in C++, which are `array`, `vector`, `string`.
 Note: `vector` is found in the `<vector>` library, so you have to `#include` it before use.
 
 ```cpp
+// initialisation
 int l = [1, 2, 3, 4, 5];
-vector<int> v = {1, 2, 3, 4, 5};
+std::vector<int> v = {1, 2, 3, 4, 5};
 ```
+Although here, both `l` and `v` contains the same information of a list of numbers from 1 - 5. The major difference between an array and a vector is that vector is sizable, it is dynamic. Arrays have a fixed size upon initialisation. For example, here, the array has a size of 5, and it could not be changed. Vectors, on the other hand, is dynamic, and allows operation such as `push_back` (append an element into the end of the list), and other operations that could be dealt to a list.
+```cpp
+std::vector<int> v = {1, 2, 3, 4, 5};
+v.push_back(6);
+// v == {1, 2, 3, 4, 5, 6} now
+```
+
+### Strings
+Strings in C++ is similar to a "wrapper" class, as string is simply a pointer to an array of characters (we will be diving into pointers later).
+
+Strings have similar functions to vectors, including `push_back`, `contains`, `find`, etc.
+```cpp
+// initialisation
+std::string s = "Hello, World!";
+```
+
+### Indexing into Array, Vector, and Strings
+
+All these of these complex data structures have the same indexing method, `[x]`, where x is the index of the element you want to access. Although, use indexing carefully, there is a possibility of `index out of bound`, which is a fatal error for the program (as it is accessing a non-existent thing). The range you can index is from 0 to the length of your data structure (obtained from `x.length()`);
