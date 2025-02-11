@@ -25,7 +25,9 @@ A while loop functions similarly to a `for` loop, but it only takes one single p
 ```cpp
 while (conditions) {}
 ```
-the conditions could be something like `a < b`, or any other condition you would like to use. But for example for `a < b`, one thing to remember is to increment (or update) `a` every iteration, otherwise the loop would be stuck in a infinite loop, never exiting. 
+**A condition is something which yield a boolean value, whereby the loop will keep running, until the condition becomes false.**
+
+The conditions could be something like `a < b`, or any other condition you would like to use. But for example for `a < b`, one thing to remember is to increment (or update) `a` every iteration, otherwise the loop would be stuck in a infinite loop, never exiting. 
 
 Bad example: 
 ```cpp
