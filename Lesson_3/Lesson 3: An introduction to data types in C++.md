@@ -59,7 +59,7 @@ Note: `vector` is found in the `<vector>` library, so you have to `#include` it 
 
 ```cpp
 // initialisation
-int l = [1, 2, 3, 4, 5];
+int l[5] = {1, 2, 3, 4, 5};
 std::vector<int> v = {1, 2, 3, 4, 5};
 ```
 Although here, both `l` and `v` contains the same information of a list of numbers from 1 - 5. The major difference between an array and a vector is that vector is sizable, it is dynamic. Arrays have a fixed size upon initialisation. For example, here, the array has a size of 5, and it could not be changed. Vectors, on the other hand, is dynamic, and allows operation such as `push_back` (append an element into the end of the list), and other operations that could be dealt to a list.
