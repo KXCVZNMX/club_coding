@@ -1,5 +1,5 @@
 # Lesson 1: Getting started with C++
-The C++ language is a compiled language developed in 1966, and have formed the basis of a lot of the internet with its father, the C language. Below, both Mac and Windows setup to start programming in C++.
+The C++ language is a compiled language developed in 1966, and have formed the basis of a lot of the internet with its father, the C language. Below, both Mac and Windows setup to start programming in C++. (Linux does not need a installation because most distributions come with the GNU compilers preinstalled)
 
 ## Mac Setup
 In Mac, the unix system comes default with the clang/clang++ compiler, but here, we will be using the gcc/g++ compiler.
@@ -76,7 +76,7 @@ IDE (***I***ntergrated ***D***evelopment ***E***nvironment), put it simply, is a
 
 To install VSCode, simply go to their [main page](https://code.visualstudio.com/)
 
-***DO NOT DOWNLOAD VISUAL STUDIO!!!*** lol
+***DO NOT DOWNLOAD VISUAL STUDIO!!!*** 
 
 ## IDE Setup
 After VSCode finishes downloading, you can checkout the "Get Started" page for some guidance in the IDE. After you are satisfied, go to the "Extensions" tab, after opening it, it should look soemthing like this:
